@@ -20,13 +20,13 @@ function modeloAuto(){
 
     //solicitamos al usuario la marca deseada
     
-    let marca = prompt("MARCA\nEscribe el nombre de la marca que deseas segun nuestra disponibilidad:\n1-Nissan\n2-Renault");
+    let marca = prompt("MARCA\nEscribe el nombre de la marca que deseas segun nuestra disponibilidad:\n-Nissan\n-Renault");
 
     //mediante switch creamos las 2 variantes de las marcas disponibles
 
     switch (marca) {
         case "Nissan":
-            let modeloN = prompt("Escribe el nombre del modelo Nissan que deseas\n1-Modelo1 por: $"+nissan1+"x/día."+"\n2-Modelo2 por: $"+nissan2+"x/día.");
+            let modeloN = prompt("Escribe el nombre del modelo Nissan que deseas\n-Modelo1 por: $"+nissan1+"x/día."+"\n-Modelo2 por: $"+nissan2+"x/día.");
 
             //Ahora mediente otro switch ingresamos a la seleccion del modelo
             switch(modeloN){
@@ -64,7 +64,7 @@ function modeloAuto(){
             break;
         
         case "Renault":
-            let modeloR = prompt("Escribe el nombre del modelo Renault que deseas\n1-Modelo1 por: $"+renault1+"x/día."+"\n2-Modelo2 por: $"+renault2+"x/día.")
+            let modeloR = prompt("Escribe el nombre del modelo Renault que deseas\n-Modelo1 por: $"+renault1+"x/día."+"\n-Modelo2 por: $"+renault2+"x/día.")
 
             //Ahora mediente otro switch ingresamos a la seleccion del modelo
             switch(modeloR){
